@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["sap/ui/core/mvc/Controller"],function(e){"use strict";var n=e.extend("keepcool.sensormanager.controller.SensorStatus",{onInit:function e(){},navToSensors:function e(){this.getOwnerComponent().getRouter().navTo("RouteSensors")}});return n});
+//# sourceMappingURL=SensorStatus.controller.js.map

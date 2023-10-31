@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["keepcool/sensormanager/controller/Sensors.controller"],function(e){"use strict";function n(e){return e&&e.__esModule&&typeof e.default!=="undefined"?e.default:e}var o=n(e);QUnit.module("Sensors Controller");QUnit.test("I should test the Sensors controller",function(e){var n=new o("Sensors");n.onInit();e.ok(n)})});
+//# sourceMappingURL=Sensors.controller.js.map

@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["sap/ui/core/library"],function(r){"use strict";var e=r["IconColor"];var t=function(r){r[r["Warm"]=4]="Warm";r[r["Hot"]=5]="Hot";return r}(t||{});function o(r){if(r<t.Warm){return"#0984e3"}else if(r>=t.Warm&&r<t.Hot){return e.Critical}else{return e.Negative}}function n(r,e){if(e==="°F"){r=r*1.8+32}return Math.round(r*10)/10}var u={__esModule:true};u.Threshold=t;u.formatIconColor=o;u.formatTemperature=n;return u});
+//# sourceMappingURL=util.js.map

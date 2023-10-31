@@ -1,0 +1,23 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <Dialog
+        title="{i18n>titleCustomerDialog}"
+        icon="sap-icon://message-information"
+        contentHeight="50%"
+        resizable="true"
+        draggable="true">
+        <content>
+            <List
+                items="{
+                    path: 'sensorModel>/customers',
+                    sorter: {path:'name'}
+                }">
+                <StandardListItem title="{sensorModel>name}"/>
+            </List>
+        </content>
+        <buttons>
+            <Button text="Close" press=".onCustomerInfoClose"/>
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

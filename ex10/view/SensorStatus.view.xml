@@ -1,0 +1,46 @@
+<mvc:View
+    controllerName="keepcool.sensormanager.controller.SensorStatus"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:card="sap.f.cards"
+    xmlns:core="sap.ui.core"
+    core:require="{
+        util: 'keepcool/sensormanager/format/util'
+    }"
+    xmlns:mc="sap.suite.ui.microchart">
+    <Page
+        id="SensorStatusPage"
+        title="{i18n>titleSensorStatus}"
+        showNavButton="true"
+        navButtonPress=".navToSensors">
+        <content>
+            <f:Card width="200px" class="sapUiSmallMargin">
+                <f:header>
+                    <card:NumericHeader title="{i18n>cardTitle} {sensorModel>customer}" subtitle="{sensorModel>location}"
+                        number="{parts: ['sensorModel>temperature', 'i18n>temperatureUnit'], formatter:'util.formatTemperature'}"
+                        scale="{i18n>temperatureUnit}" state="{path: 'sensorModel>temperature', formatter: 'util.formatValueColor'}" />
+                </f:header>
+                <f:content>
+                    <mc:LineMicroChart
+                        id="lineMicroChart"
+                        class="sapUiSmallMarginBeginEnd sapUiSmallMarginBottom"
+                        leftBottomLabel="15 AM"
+                        rightBottomLabel="15 PM"
+                        threshold="{=util.formatTemperature(util.Threshold.Hot, ${i18n>temperatureUnit})}"
+                        thresholdDisplayValue="{=util.formatTemperature(util.Threshold.Hot, ${i18n>temperatureUnit})} {i18n>temperatureUnit}"
+                        showThresholdValue="true"
+                        size="Auto"
+                        points="{sensorModel>temperatureLog}">
+                        <mc:LineMicroChartEmphasizedPoint
+                            x="{sensorModel>time}"
+                            y="{parts: ['sensorModel>temperature', 'i18n>temperatureUnit'], formatter:'util.formatTemperature'}"
+                            color="{path: 'sensorModel>temperature', formatter:'util.formatValueColor'}"
+                            show="{=${sensorModel>temperature}>util.Threshold.Warm}"/>
+                    </mc:LineMicroChart>
+                </f:content>
+            </f:Card>
+        </content>
+    </Page>
+</mvc:View>

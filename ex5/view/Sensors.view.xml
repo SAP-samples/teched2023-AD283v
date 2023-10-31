@@ -1,0 +1,47 @@
+<mvc:View
+    controllerName="keepcool.sensormanager.controller.Sensors"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:grid="sap.ui.layout.cssgrid"
+    core:require="{
+        util: 'keepcool/sensormanager/format/util'
+    }"
+    displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <IconTabBar id="iconTabBar" class="sapUiResponsiveContentPadding">
+                <content>
+                    <f:GridList
+                        id="sensorsList"
+                        items="{path: 'sensorModel>/sensors', sorter: {path:'customer', group:true, descending: false}}"
+                        noDataText="No sensors">
+                        <f:items>
+                            <f:GridListItem  type="Active">
+                                <HBox justifyContent="SpaceBetween"
+                                    class="sapUiSmallMargin">
+                                    <VBox>
+                                        <Title
+                                            text="{sensorModel>location}"
+                                            wrapping="true"/>
+                                        <ObjectNumber
+                                            number="{parts: ['sensorModel>temperature', 'i18n>temperatureUnit'], formatter:'util.formatTemperature'}"
+                                            unit="{i18n>temperatureUnit}"/>
+                                    </VBox>
+                                    <core:Icon
+                                        src="sap-icon://temperature"
+                                        size="2.5rem"
+                                        color="{path: 'sensorModel>temperature', formatter:'util.formatIconColor'}"/>
+                                </HBox>
+                            </f:GridListItem>
+                        </f:items>
+                        <f:noData>
+                            <IllustratedMessage enableVerticalResponsiveness="true" illustrationType="sapIllus-EmptyList"/>
+                        </f:noData>
+                    </f:GridList>
+                </content>
+            </IconTabBar>
+        </content>
+    </Page>
+</mvc:View>
