@@ -6,9 +6,9 @@ In this exercise, you will be guided on how to access your SAP Business Applicat
 
 By the end of these steps, you will know how to navigate to the SAP Business Application Studio and set it up for your development needs.
 
-1. Open [your trial account entry page](https://cockpit.hanatrial.ondemand.com/trial/#/home/trial) using a web browser of your preference (Google Chrome, Microsoft Edge, Apple Safari, etc.) and log in using your credentials. If you encounter any issues logging in, ensure you meet the [requirements](../../../README.md#requirements), specifically having [created a trial account](https://developers.sap.com/tutorials/hcp-create-trial-account.html).
+1. Open [your trial account entry page](https://cockpit.hanatrial.ondemand.com/trial/#/home/trial) using a web browser of your preference (Google Chrome, Microsoft Edge, Apple Safari, etc.) and log in using your credentials. If you encounter any issues logging in, ensure you meet the [requirements](../../../../README.md#requirements), specifically having [created a trial account](https://developers.sap.com/tutorials/hcp-create-trial-account.html).
 
-2. Navigate to the left side of the page and click on the [SAP Business Application Studio link](https://triallink.eu10.trial.applicationstudio.cloud.sap/).
+2. Click on the SAP Business Application Studio link on the left side of the page.
 
 ![](images/00_01_0000.png)
 

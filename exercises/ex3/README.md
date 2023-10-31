@@ -1,5 +1,5 @@
 [![solution](https://flat.badgen.net/badge/solution/available/green?icon=github)](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex3)
-[![demo](https://flat.badgen.net/badge/demo/deployed/blue?icon=github)](https://pages.github.com/SAP-Samples/teched2023-AD283v/ex3/test/flpSandbox.html?sap-ui-xx-viewCache=false#keepcoolsensormanager-display)
+[![demo](https://flat.badgen.net/badge/demo/deployed/blue?icon=github)](https://sap-samples.github.io/teched2023-AD283v/ex3/test/flpSandbox-cdn.html?sap-ui-xx-viewCache=false#keepcoolsensormanager-display)
 # Exercise 3 - Show Sensor Content
 
 In this exercise you'll add a local data source to the application and display the data on the further enhanced UI5 view.

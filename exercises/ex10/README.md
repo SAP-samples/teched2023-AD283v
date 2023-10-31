@@ -1,4 +1,3 @@
-[![solution](https://flat.badgen.net/badge/solution/available/green?icon=github)](../../../../tree/code/ex11)
 
 # Exercise 10 - Deploy Your App to SAP BTP, Cloud Foundry runtime
 
@@ -116,5 +115,5 @@ Keep up the good work and stay curious about SAPUI5 as there is still a lot to l
 
 ## Further Information
 
-* UI5 Tutorials: https://sapui5.hana.ondemand.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
+* UI5 Tutorials: https://ui5.sap.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
 * SAP Tutorials: https://developers.sap.com/tutorial-navigator.html

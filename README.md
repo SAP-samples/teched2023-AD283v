@@ -18,15 +18,15 @@ The requirements to follow the exercises in this repository are:
 Completing the following exercises will guide you through developing web applications using the SAPUI5 framework and TypeScript.
 
 [Exercise 0 - Getting Started](exercises/ex0/)<br>
-[Exercise 1 - Project Setup Using Business Application Studio](exercises/ex1/) (*[browse sources](blob/code/exercises/ex1/webapp)*)<br>
-[Exercise 2 - Add First Content](exercises/ex2/) (*[browse sources](blob/code/exercises/ex2/webapp)*)<br>
-[Exercise 3 - Show Sensor Content](exercises/ex3/) (*[browse sources](blob/code/exercises/ex3/webapp)*)<br>
-[Exercise 4 - Introduce Localization](exercises/ex4/) (*[browse sources](blob/code/exercises/ex4/webapp)*)<br>
-[Exercise 5 - Improve Visualization](exercises/ex5/) (*[browse sources](blob/code/exercises/ex5/webapp)*)<br>
-[Exercise 6 - Filtering With the IconTabBar](exercises/ex6/) (*[browse sources](blob/code/exercises/ex6/webapp)*)<br>
-[Exercise 7 - Fragment Containing a Dialog](exercises/ex7/) (*[browse sources](blob/code/exercises/ex7/webapp)*)<br>
-[Exercise 8 - Second View with Navigation](exercises/ex8/) (*[browse sources](blob/code/exercises/ex8/webapp)*)<br>
-[Exercise 9 - Card with Sensor Details](exercises/ex9/) (*[browse sources](blob/code/exercises/ex9/webapp)*)<br>
+[Exercise 1 - Project Setup Using Business Application Studio](exercises/ex1/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex1)*)<br>
+[Exercise 2 - Add First Content](exercises/ex2/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex2)*)<br>
+[Exercise 3 - Show Sensor Content](exercises/ex3/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex3)*)<br>
+[Exercise 4 - Introduce Localization](exercises/ex4/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex4)*)<br>
+[Exercise 5 - Improve Visualization](exercises/ex5/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex5)*)<br>
+[Exercise 6 - Filtering With the IconTabBar](exercises/ex6/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex6)*)<br>
+[Exercise 7 - Fragment Containing a Dialog](exercises/ex7/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex7)*)<br>
+[Exercise 8 - Second View with Navigation](exercises/ex8/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex8)*)<br>
+[Exercise 9 - Card with Sensor Details](exercises/ex9/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex9)*)<br>
 [Exercise 10  - Deployment to SAP BTP - Cloud Foundry runtime](exercises/ex10/)
 
 Start with exercise 0 [here](exercises/ex0/).
