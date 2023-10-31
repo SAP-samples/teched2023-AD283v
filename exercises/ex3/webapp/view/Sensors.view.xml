@@ -1,0 +1,29 @@
+<mvc:View
+    controllerName="keepcool.sensormanager.controller.Sensors"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:grid="sap.ui.layout.cssgrid"
+    displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <IconTabBar id="iconTabBar" class="sapUiResponsiveContentPadding">
+                <content>
+                    <f:GridList
+                        id="sensorsList"
+                        items="{path: 'sensorModel>/sensors', sorter: {path:'customer', group:true, descending: false}}"
+                        noDataText="No sensors">
+                        <f:items>
+                            <f:GridListItem>
+                                <Title text="{sensorModel>location}"/>
+                            </f:GridListItem>
+                        </f:items>
+                        <f:noData>
+                            <IllustratedMessage enableVerticalResponsiveness="true" illustrationType="sapIllus-EmptyList"/>
+                        </f:noData>
+                    </f:GridList>
+                </content>
+            </IconTabBar>
+        </content>
+    </Page>
+</mvc:View>

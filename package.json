@@ -1,0 +1,16 @@
+{
+	"name": "teched2023-ad283v",
+	"version": "0.0.1",
+	"description": "The workspace of all exercises",
+	"private": true,
+	"engines": {
+		"node": ">=18.14.0",
+		"npm": ">=9"
+	},
+	"scripts": {
+		"build": "npm x --ws  -c \"npm run build -- --dest ../../dist/\\${PWD##*/}\""
+    },
+	"workspaces": [
+		"exercises/**"
+	]
+}
