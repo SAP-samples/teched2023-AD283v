@@ -1,4 +1,4 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AD265)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AD283v)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AD283v)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AD283v)
 
 # AD283v - Develop SAPUI5 Applications with Pro-Code Tools and Best Practices from SAP
 
@@ -18,18 +18,20 @@ The requirements to follow the exercises in this repository are:
 Completing the following exercises will guide you through developing web applications using the SAPUI5 framework and TypeScript.
 
 [Exercise 0 - Getting Started](exercises/ex0/)<br>
-[Exercise 1 - Project Setup Using Business Application Studio](exercises/ex1/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex1)*)<br>
-[Exercise 2 - Add First Content](exercises/ex2/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex2)*)<br>
-[Exercise 3 - Show Sensor Content](exercises/ex3/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex3)*)<br>
-[Exercise 4 - Introduce Localization](exercises/ex4/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex4)*)<br>
-[Exercise 5 - Improve Visualization](exercises/ex5/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex5)*)<br>
-[Exercise 6 - Filtering With the IconTabBar](exercises/ex6/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex6)*)<br>
-[Exercise 7 - Fragment Containing a Dialog](exercises/ex7/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex7)*)<br>
-[Exercise 8 - Second View with Navigation](exercises/ex8/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex8)*)<br>
-[Exercise 9 - Card with Sensor Details](exercises/ex9/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex9)*)<br>
+[Exercise 1 - Project Setup Using Business Application Studio](exercises/ex1/) (*[browse solution code](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex1)*)<br>
+[Exercise 2 - Add First Content](exercises/ex2/) (*[browse solution code](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex2)*)<br>
+[Exercise 3 - Show Sensor Content](exercises/ex3/) (*[browse solution code](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex3)*)<br>
+[Exercise 4 - Introduce Localization](exercises/ex4/) (*[browse solution code](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex4)*)<br>
+[Exercise 5 - Improve Visualization](exercises/ex5/) (*[browse solution code](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex5)*)<br>
+[Exercise 6 - Filtering With the IconTabBar](exercises/ex6/) (*[browse solution code](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex6)*)<br>
+[Exercise 7 - Fragment Containing a Dialog](exercises/ex7/) (*[browse solution code](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex7)*)<br>
+[Exercise 8 - Second View with Navigation](exercises/ex8/) (*[browse solution code](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex8)*)<br>
+[Exercise 9 - Card with Sensor Details](exercises/ex9/) (*[browse solution code](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex9)*)<br>
 [Exercise 10  - Deployment to SAP BTP - Cloud Foundry runtime](exercises/ex10/)
 
 Start with exercise 0 [here](exercises/ex0/).
+
+You can not only access the resulting code after each exercise by following the links above, but also import it to SAP Business Application Studio. Instructions how to do this can be [found here](https://github.com/SAP-samples/teched2023-AD283v/tree/code).
 
 ## Contributing
 Please read [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
@@ -38,7 +40,8 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution 
 Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## How to obtain support
-Support for the content in this repository is available during the actual time of the online session on November 2nd for which this content has been designed. Otherwise, you may ask for support via the [Issues](../../issues) tab.
+Live Q&A for the content in this repository is available during the actual time of the online session on November 2nd (18:00 to 18:25 GMT) for which this content has been designed.<br>
+Afterwards, you may ask for support via `New issue` on the [Issues](../../issues) tab. Make sure to describe the problem as completely and precisely as possible in this case and provide answers to the questions in the issue template.
 
 ## Stay in touch
 Stay in touch with the community by choosing your favourite channel.
