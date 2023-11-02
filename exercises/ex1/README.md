@@ -51,9 +51,11 @@ After completing these steps you'll have created your first UI5 application.
 
 7. In the next step, select *Cloud Foundry* as target, leave the Destination name to "None" and make sure that the *Yes* is checked for adding the application to the application router and click *Finish*.  </ul>
 
+> **IMPORTANT**: After pressing *Finish*, before proceeding, please wait for the project setup to complete! (see next step below for details)
+
 <br><br>![](images/01_01_0017.png)<br><br>
 
-8. The project is now being generated, and a notification window will appear in the lower right corner once the process has completed. Wait for the message that the project has been generated!
+8. The project is now being generated, and a notification window will appear in the lower right corner once the process has completed. **Wait for the message that the project has been generated!**
 
 9. A warning popup may tell you that the project "is not in current workspace"; in this case, select the left button "Add project to workspace".
 

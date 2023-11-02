@@ -40,8 +40,9 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution 
 Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## How to obtain support
-Live Q&A for the content in this repository is available during the actual time of the online session on November 2nd (18:00 to 18:25 GMT) for which this content has been designed.<br>
-Afterwards, you may ask for support via `New issue` on the [Issues](../../issues) tab. Make sure to describe the problem as completely and precisely as possible in this case and provide answers to the questions in the issue template.
+Live Q&A for the content in this repository is available during the actual time of the online session on November 2nd (18:00 to 18:25 GMT) for which this content has been designed.
+
+Afterwards, when doing the exercises during the next days and weeks, you may ask for support via `New issue` on the [Issues](../../issues) tab. Make sure to describe the problem as completely and precisely as possible in this case and provide answers to the questions in the issue template. Experience shows that most issues stem from typos or copy&paste errors (e.g. missing parts, wrong insertion point, replacing too much or too little of the existing content), so please re-check by comparing with the solution code of the respective exercise before reporting. This gets you back on track much faster in most cases. 
 
 ## Stay in touch
 Stay in touch with the community by choosing your favourite channel.
