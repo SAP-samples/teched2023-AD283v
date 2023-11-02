@@ -6,6 +6,10 @@
 
 Learn how to build an SAPUI5 freestyle application using pro-code tools on SAP Business Technology Platform. Uncover how to use TypeScript, together with the latest tools and the best practices from SAP. Get hands-on experience, ask questions, and complete exercises at your own pace.
 
+## Intro Video
+
+For attendees of SAP TechEd 2023 Virtual (free registration required), a video recording of our introduction jump-start session is available [here](https://go3.events.sap.com/sapteched/virtual/2023/reg/flow/sap/sapteched23/catalog/page/catalog/session/1693019545106001fWu1) (but it is not needed to do the exercises).
+
 ## Requirements
 
 The requirements to follow the exercises in this repository are:
